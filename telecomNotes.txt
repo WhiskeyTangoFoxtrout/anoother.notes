@@ -11,4 +11,14 @@ SO before all this LTE nonsense there was 3G(idfk) but it was based on HSPA(high
 we didnt get videos until the end of Dubba First term(3G):
     problem with 3Gwhen it first came out and also the main problem with 2G was the data transfer limitations So you just couldnt,
     do Multimedia transfer. Also delay of data transmission(things were analong, those two Goats I mentions pushed for wireless. WooPiG...Go COUGARS) 
-LTE fuck tha game up. Sum Bama(No roll tide) shit
+LTE fuck tha game up. Sum (O...O...O)Bama(No roll tide) shit
+Fixed network displays better quality than mobile networks
+another problem with mobile network connection is that too many users can cause latency issues and cause major lag(reason yo fone buffer randomly...sometimes):
+    then on top of that it has to follow a standard format(I think all fones are about the same size reason y Tablets were such a big thing)
+LTE help clear some of these alliments but still ran into the same road blocks "MBMS"(MultiMedia Broadcast Multicast System):
+    help transmit packet and handle the workload of multiple user on the same tower and website(imagine now with all the apps we use at once like tiktoc and youtube)
+Where e(nhanced)MBMS and MBMS kick in is the programmer dont have to specify a channel and the variations of the channel(think ports and regions and actually fiber optics connects...etcs) all you have to do its specify which channel you want to work with
+#*This means multi line comment
+Think of haveing your cable TV in your phone when I mention MBMS and what not. 
+*#
+
