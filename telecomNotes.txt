@@ -22,3 +22,13 @@ Where e(nhanced)MBMS and MBMS kick in is the programmer dont have to specify a c
 Think of haveing your cable TV in your phone when I mention MBMS and what not. 
 *#
 
+when MBMS one law of this method is everything must be preschedule
+
+"MBSFN"::Multi Broadcast Single Frequency Network:
+    this way is meant to optimize the broadcast mode
+    #*it uses Bit-synchronization to trasmit data almost sounds like were using a PC but were still refering to
+    broadcasting shows on your mobile fone.(Early days of streaming)*#
+ #crazy work What I been talking about is supposed to be a more effiecient way of basically the phone operator
+
+back to how data is transfered from mobile fones. Think were at "SFN" and "MBSFN":
+    Benifit of "MBSFN" and "SFN" is that when a station or channel is overloaded the system can offshoot them into a diffrent tower.
