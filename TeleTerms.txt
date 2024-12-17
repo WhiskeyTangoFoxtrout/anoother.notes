@@ -1,0 +1,10 @@
+Telecoms Terms:#Ill write a server soon and figure some sec algos
+
+"MBMS": MultiMedia Broadcast Multicast System. -> One way to stream videos to mobile fones
+"eMBMS": Enhanched MultiMedia Broadcast Multicast System -> better MBMS
+"e-": Enhanced
+"PTP": Point-to-Point
+"SFN": Single frequency Network
+"OFDM":Orthogonal Frequency-Division Multiplexing -> Method for digital wireless encoding for data on multiple frequencies
+"eNB": Evolved Node B<- cell base station for LTE
+"LTE": Long Term Evolution -> upgrade from 3G
