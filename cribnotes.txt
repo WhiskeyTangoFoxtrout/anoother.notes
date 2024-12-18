@@ -1,0 +1,10 @@
+Ima Goofy sometimes. Notes just program notes and cheat sheet... welcome kiddos
+*---------------------------------------------------------------------------------------------*
+                            |////GO\\\\\|
+Args is a command line methods. Its ment to affect the commnad line
+
+*os.Args[0] will tell you the file path
+*os.Args[1:] will be able to tell you the directories(again this affect the command line) i read the docs so I might be lying
+*len(os.Args) will tell you have many has passed through the program
+*idvidual slices#*args[slice:slice]*# repersent diffrent methods you can access.
+
