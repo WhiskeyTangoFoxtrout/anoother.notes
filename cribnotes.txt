@@ -7,4 +7,7 @@ Args is a command line methods. Its ment to affect the commnad line
 *os.Args[1:] will be able to tell you the directories(again this affect the command line) i read the docs so I might be lying
 *len(os.Args) will tell you have many has passed through the program
 *idvidual slices#*args[slice:slice]*# repersent diffrent methods you can access.
-
+*"Listener" will wait and listen for a connection(make a server a host)
+*"Listen" is for local network also TCP and up dont think it works on IPs(spoiler it doesn't)
+*"Dial" will call a Url(TCP/UDP/Unix/and I think IP)
+*"Conn" is a client server trying to hook up wit the host(Japan gone love this LMAOOOO)
