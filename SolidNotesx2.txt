@@ -1,0 +1,19 @@
+Booleans:
+    "!"(Negation...not)
+    "&&"(logical conjunction ...and)
+    "||" (logical disconjuction ...or)
+    "=="(equality)
+    "!="(inequality)
+
+intergers:
+    int/uint-> pretty sure this is signed and unsigned. Im not checking the book. Ill just update you
+    <>,<==>, ==,!= operators
+    &,|,(Bit OPerators) ^(This is disconjuction) ~bitwise negation
+    Shift operators <<,>>    
+    Arithmetic Operators +,-, *,/,%(modulo),**(raise a power)
+
+address:
+    "address": hold 20 bytes value(size of an Ethurem Address)
+    "address payable": same as address but with addition memebers:: "transfer" and "send":
+        with this function you can send ether back and forth
+        payable(address) is needed when you want to send money somewhere
