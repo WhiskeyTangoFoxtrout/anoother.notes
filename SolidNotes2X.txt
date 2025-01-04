@@ -1,0 +1,49 @@
+wei is a thing in this lingo idk its currency
+
+Booleans:
+    "!"(Negation...not)
+    "&&"(logical conjunction ...and)
+    "||" (logical disconjuction ...or)
+    "=="(equality)
+    "!="(inequality)
+
+intergers:
+    int/uint-> pretty sure this is signed and unsigned. Im not checking the book. Ill just update you
+    <>,<==>, ==,!= operators
+    &,|,(Bit OPerators) ^(This is disconjuction) ~bitwise negation
+    Shift operators <<,>>    
+    Arithmetic Operators +,-, *,/,%(modulo),**(raise a power)
+
+address:
+    "address": hold 20 bytes value(size of an Ethurem Address)
+    "address payable": same as address but with addition memebers:: "transfer" and "send":
+        with this function you can send ether back and forth
+        payable(address) is needed when you want to send money somewhere
+        #*I hate address already... address are only 20bytes. so if its larger than that you have to convert it.
+you have to use address(uint160(byte20(address))) this converts it to the correct bit count(160 refers to bits) remeber 8 bits per byte. This making be have to convert again. Thank god its not signed to unsigned
+or
+address(uint160(uint256(b))) think bits this is strictly bit talk
+*#
+    *Address have members:
+        "balance"/"transfer":
+            transfer fail if the balnce doesnt hold enough currency
+#I would hope so if not you have to write a recursive formula
+        "send":
+            this is a lower-level conterpart of transer
+            if send(execution) fails the current contract will not stop but youll get a false... like that fuckin helps LMAO
+#*The book try to warn about the danger but cmon. it doesnt stop transfer. It lets you gain a negative balance ontop of that
+it doesnt halt the contract... imagine the domino effect*#
+        "call"/"delegatecall"/"staticcall":
+            These give more direct control over the encoding
+            they take single "byte memory"
+            #*Warning!*#
+            these return raw memory:
+                "abi.encode"/"abi.encodePacked"/"abi.encodeWithSelector"/"abi.encodeWithSignature" can encode the data
+        "gas":# is stupid its fee and and its a transaction fee 
+            you(user) can set a limit.(gas price)
+            #*this some pay to play*# the higher the gas price the quicker your transaction get done 
+            #pay to play its incentives miners to pay more
+            and this freakin stuff fluxuate with the market demand gotta love it
+            its meant to help prevent attacks on the network from someone who could figure how to leak the data into a memory bank(think about that statement) also limits the work you can do one on block
+#so if gas runs out the block cant preform operations... idk im reading the book so who knows
+
