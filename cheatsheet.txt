@@ -1,0 +1,3 @@
+#need this so I can write the ya digs out
+-address(uint160(byte20(address))) or address(uint160(uint256(b))) is used to convert any address larger than 20 bytes to fit the meta
+    one if for bytes other is for bits
