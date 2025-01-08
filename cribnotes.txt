@@ -20,3 +20,30 @@ Args is a command line methods. Its ment to affect the commnad line
   can be styled with class and id
 "class":
     is meant as a var name or reference name so you can link it the the css or watever the kids use
+"input":
+    this tells a certain spot where user input data
+#come with hella input types im importing
+#*
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text"> (default value)
+<input type="time">
+<input type="url">
+<input type="week">
+*#
