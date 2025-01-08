@@ -11,3 +11,12 @@ Args is a command line methods. Its ment to affect the commnad line
 *"Listen" is for local network also TCP and up dont think it works on IPs(spoiler it doesn't)
 *"Dial" will call a Url(TCP/UDP/Unix/and I think IP)
 *"Conn" is a client server trying to hook up wit the host(Japan gone love this LMAOOOO)
+
+*---------------------------------------------------------------------*
+                    |////HTML,CSS\\\\\|
+
+</div> is meant to section a peice of the ... webpage(I hate webdev)
+  "div" is meant to make containers  
+  can be styled with class and id
+"class":
+    is meant as a var name or reference name so you can link it the the css or watever the kids use
