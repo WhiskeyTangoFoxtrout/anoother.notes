@@ -1,3 +1,10 @@
 #need this so I can write the ya digs out
 -address(uint160(byte20(address))) or address(uint160(uint256(b))) is used to convert any address larger than 20 bytes to fit the meta
     one if for bytes other is for bits
+
+*******************Socket pro*********************
+
+when you are trying to wirte data out tie it to the array or what ever bit/byte output that will write to another machine
+#im working on header make ima assume on the echo its gotta be less than 8 bits and erthangelse gone wit the law of two:
+    conn.Write(msg[0:len]) this would write and send message in Go
+header should only be ness, addy, os, des machine info
