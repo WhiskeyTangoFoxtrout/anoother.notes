@@ -66,3 +66,29 @@ initial:
     Sets this property to its default value. Read about initial	
 inherit: 
     Inherits this property from its parent element
+
+***********************************Sockets*******DATA*****************************************************************
+
+sockets:
+    end point btw machiens for comms
+    
+
+ICMP Protocol means "Internet Control Message Protocol" its like a ruleset for communications(prolly sent wordbyte instead of raw data):
+    1 -> IP
+    58 -> IPv6
+
+packets:
+    Packets are broken up message that will be recombined by the reciver machine:
+        data could be sent over diffrent modems:
+            think of how videos have audio, pictures, color, rendering, etc...#*Explains buffering*# these forms of data would need diffrent means of reaching the client machine
+    packets works bc CPUS fuckin sucks. Think about it One instruction at a time imagine if the video was a Gig,
+    you would have to download the video and nothing else#*Your clock would have to stop Phone/PC couldn't render videos.    Nothing but process the download not even update you on the download*#,
+    breaking the message up would help aid the threading process
+    "Packet Switching" is when multiple machines are sending data to one reciver(Host,Client,Database#*A freakin data base need packet switching. How can I join the pipe line covertly... the ethernets are in the air now...*#)
+    "header":
+        this a label of sorts with an Ip, address machine info, destination etc also Sequenctial#*nospellcheck*# order
+        so packets usally have multple headers:
+            it gets called on by the internet protocols
+    "IP" does something with routing:
+        it reads the Memory address(may notbe Tech right but google.com is 142.250.113.113. and thats a fuckin memory address LMAOO ) and ties the memory address with an internet protocol. #im statring to see doors
+
