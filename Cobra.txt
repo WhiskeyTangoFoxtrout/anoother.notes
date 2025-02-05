@@ -1,0 +1,56 @@
+*ID, Enviorment, Data, Porcedure are used in Cobol pros:
+    ID really just needed
+
+*ID Div:
+    used to name program
+    provide other opt info:
+        author
+        installation
+        data-written
+        data-compiled:
+            data compilation date
+    pro-ID is used for:
+        to name the program
+        other programs use the name to call your program
+        These pro-ID name appers in the header file list when youcompile the program
+        If u use the name binder(basically make it a linker branch type of thing):
+            also this is a way to have a statement type thinh idtefy the obj module the the compiler creates
+
+#************************************************************************************************************************
+
+DONOTUSE THESE ARE HEADERS NAMES
+
+– AFB
+– AFH
+– CBC
+– CEE
+– CEH
+– CEL
+– CEQ
+– CEU
+– DFH
+– DSN
+– EDC
+– FOR
+– IBM
+– IFY
+– IGY
+– IGZ
+– ILB
+
+ *******************************************************************************************************************************#
+*IDin a progrgam recursive:
+    recrusive attribute on the pro-ID clause to specify a program can bt recursive:
+        im gussing evering thing else can be a victim to bufferoverflow
+    Only global programs/func/method/modules/obj can be recursive:
+        no nested or basically subroutines
+    if you have a thread opt in your program you have to have an recursive opt
+
+*making a program callable:
+    use common attr in pro-ID:
+        specify this pro can be call bt the containing program or any program in the containin program
+        ion think this can be called the itself
+        only contained program can have COMMON attr
+
+*setting a program to an intial state:
+    
