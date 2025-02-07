@@ -62,6 +62,12 @@ DONOTUSE THESE ARE HEADERS NAMES
         National Chars
         UTF-16
         UTF-8
-        
+    when national opt on the compiler is active:
+        N' N" can hold a byte or double byte of info
+
+char set code pages:
+    set of letters nums and spec chars and others elements
+    'code page':
+        areferes to a set of coded shar set
     
     
