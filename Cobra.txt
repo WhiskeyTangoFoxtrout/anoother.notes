@@ -52,5 +52,16 @@ DONOTUSE THESE ARE HEADERS NAMES
         ion think this can be called the itself
         only contained program can have COMMON attr
 
-*setting a program to an intial state:
+*Cobol Lang Struct::Characters
+
+    certain elements cause the Lang to extend chracter set with the EBCDIC Double-Byte Character-Set(DBCS):
+        can be for user defined words#usr vars with char or strings contained
+    runtime can include:
+        any alphanumeric
+        DBCS
+        National Chars
+        UTF-16
+        UTF-8
+        
+    
     
