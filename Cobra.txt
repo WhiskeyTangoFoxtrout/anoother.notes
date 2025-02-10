@@ -70,4 +70,27 @@ char set code pages:
     'code page':
         areferes to a set of coded shar set
     
-    
+ ALTER statement:
+    • AUTHOR paragraph
+    • Comment entry
+    • DATA RECORDS clause
+    • DATE-COMPILED paragraph
+    • DATE-WRITTEN paragraph
+    • DEBUG-ITEM special register
+    • Debugging sections
+    • ENTER statement
+    • GO TO without a specified procedure-name
+    • INSTALLATION paragraph
+    • LABEL RECORDS clause
+    • MEMORY SIZE clause
+    • MULTIPLE FILE TAPE clause
+    • RERUN clause
+    • REVERSED phrase
+    • SECURITY paragraph
+    • Segmentation module
+    • STOP literal format of the STOP statement
+    • USE FOR DEBUGGING declarative
+    • VALUE OF clause
+
+'self':
+    spec obj id that can be used in procedure. refers
