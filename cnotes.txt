@@ -1,0 +1,19 @@
+//I just like c?
+//size is a int type dec...C
+/*size is int repersentation of unsigned bits
+think size_t let you load unsigned ints just not a max*/
+for(size_max i ){
+
+    return bawchet
+  
+}
+
+/*bit or |
+|| or
+- compl
+& bit and
+&&and
+!a not
+!=not equal
+alignof
+*/
