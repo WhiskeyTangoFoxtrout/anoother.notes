@@ -1,0 +1,13 @@
+*Trick wit sockets is you need to transfer data:
+    -think 'read()'/'write()'/'send()'/'recv()'/'alloc()'/'memcpy()'...etc
+*socket is repr by an int(this is the socketitdescriptor):
+    -think internet protocol nums
+    -as long as the 'conn()'/'accept()'/'listen()' open the sockit open
+    -can make custom sockets that comm with IBM or that berkly research non-sense #WOOPIG
+    -sockets is whats really movn data around
+*connection sockets:
+    -implies the machine are already talkin#thinkin mo ether net in mind
+*connectionless::think the internet
+*so sockets need an memaddr loc bc its an program that will hold mem::its not an ip hopefully
+*ip4::use 32-bits 
+*ip6::use 128 bits
