@@ -1,0 +1,47 @@
+#*Cnotes once again*#
+'Numerical Limits':
+    -limits.h/float.h/stdint.h are for numerical limits
+
+'Inception Limits':3this is the limits of a program if I get it right. SO C SIZE LIMIT
+    -127 nesting lvl of blocks
+    -63 nesting lvl of conditional inclusion(statments)
+    -12 pointers,arrays, and func dec of any combo used to mod an arth, struct, union or void type declaration
+    -63 nesting lvls of parenthesized dec with full dec
+    -63 nesting lvls of parenthesized expression within a full expression
+    -63 significant init char in an internal identifier.(so car names ony 16bit)
+    -31 sig init char in an internal indentfier(short)
+    -4095 external indenifier in one translation unit
+    -511 identifiers in  one block(not to many vars now)
+    -4095 macro name simulanenously defind in one preprocessing tranlating unit
+    -127 parameters in one function def
+    -127 parameters in one macro
+    -127 args in one marco invocation
+    -4095 characters in a logic srcln basically this is the col limit
+    -4095 chars in str lit after concatenation... adding strs together
+    -65535 bytes in an obj
+    -15 nesting lvl 4 #include flies
+    -1023 case labels for a switch statements 
+    -1023 enums const in a single enum
+    -63 lvls of nested of structure or union def in a single struc dec list
+
+functions can be interupted by an signal or interuption#*I hate asm refer to your chip documentation*#
+#*
+there is a couple of ways to do display semantics
+*#
+'char display semantics':
+    -'\a'(alert)::audio or visible alert without changing position;
+    -'\f'(form feed):: movs the active pos 2da init pos @ start to nxt logical page
+    -'\r'(carriage return)::movs da active pos 2da init pos of da current ln
+    -others:
+        +'\b'
+        +'\v'
+        +'\t'
+        +'\n'
+there is diffrent forms of floating points
+
+#*Should mention, you need 'fputc'(which is some type output function that displays to the monitor)
+and isprint(same as fputc but with subtle diffrences)*#
+'floating C':    
+#this thang gave the formula for Floating points but its almost like unsigned to two compliment just diffrent variable factors also its in a range just like unsigned to twos compliment
+#I dont feel like writting it down so refer to google
+    -
