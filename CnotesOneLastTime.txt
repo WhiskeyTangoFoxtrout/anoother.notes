@@ -44,4 +44,42 @@ and isprint(same as fputc but with subtle diffrences)*#
 'floating C':    
 #this thang gave the formula for Floating points but its almost like unsigned to two compliment just diffrent variable factors also its in a range just like unsigned to twos compliment
 #I dont feel like writting it down so refer to google
+    -only tow compliment
+    -the smallest point is the most negative finite int,vice versa for highest
+#/**/comment //comment
+
+'printing floatin or dec points':
+    '%d'::print dec int
+    '%6d'::print dec int at least 6 chars wide
+    '%f'::print floating point
+    '%6f'::prnt float at least 6 chars wide
+    '%.2f'::print as float 2 chars aft dec point
+    '%6.2f'::prnt as float at leasat 6 char wide and aft 2 dec points
+#other print styles '%o' for octal '%x' for hexdec '%c' for char '%s' for string '%%' for raw data input
+
+for statement:
+    ()>import Ex:
+        for(var = 0; var <= condtion; var = var + 5#*til it reach the condition*#)
+    Exit<();
+    'dont for get to typecast when using vars dont slip'
+    -eventually the parameters does top out and a condtions has to be met or its throws an syntax error bcs its not a while loop
+
+'symbolic Constants':
+    -fuckin define statments.:
+        +I think you can use  #define with a typecast instead of setting an size limitation
+        +once somethin is casted by the #define statement its not a varibale#*So prolly no typecasting*# they are symbolic constants.
+'char I/O':
+    -so almost everything in C is based on stdIO bc its so closely related to ASM/
+    now fun part sometimes you have to typecast the I/O data stream bc I think it defaults to Byte or Bits idk I havent read that mmuch into it
+#*
+jus a little clarifaction text streams read and written line by line read how ever the lexor reads the line. all chars lines end with a newline esc char
+*#
+
+
+
+    -'getchar','putchar' are some the simplest ways to typecase and use the charI/O:
+        +'getchar' is for user input or whatever you inputed
+        +'putchar' is for displaying string chars
+
+'File Cpyn':
     -
