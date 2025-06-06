@@ -1,0 +1,40 @@
+#*Errthang is based on BitI/O gotta remember that
+everthing is a bit jus with a diffrent repersentation, whole new abstract it might even be a color
+
+
+*#
+
+'Buses':
+    -are eletrical conduits
+    -they carry bytes to/from componets, perphials
+    -mainly designed for word#*words aew fixed sized chunks of byes not the whole mayb thats y its 4 bytes
+    this is a fundemtal parameter that varies across systems*#
+
+'I/O devices':
+    -think perphials, yo keyboard#disk drives count too
+    -Each device is connect thru an adapta/controlla:
+        +'adapta'::is a card with a plugin/'controlla'::are chip encoded and usally embedded
+
+'Main Memory':
+    -temp storage disk:
+        +hold program and data
+    -'DRAM'(Dynamic Random Access Memroy):
+        +Physically main mem
+    -Logically memory is a linary array of bytes:
+        +this acts as an address and we run it, like so
+        +it usually starts in 0#*fun fact your O.S Bootloader usaslly is the last mem address and I think we work backwards*#
+#*REMINDER ------------------------------------------------------------
+
+            Use the recursive formula in your O.S so you dont bufferoverflw this isnt pre 1970
+
+*#
+
+'Processor':
+    -Usally 'CPU':
+        +interpts Instructs
+        +regs are a fuckin word size 4 or 8 bytes#wtf THIS IS WHY KNOW THE WORD OF GOD SO IMPORRTSNT
+        #also regs are like a stroage or VRAM or the procsesor
+        #also called the program counter PC reading the ASM docs make a lil mo sense
+        +if I get it right chip mem is erased after each power down#Vram
+        
+        went 2 mak music brb
