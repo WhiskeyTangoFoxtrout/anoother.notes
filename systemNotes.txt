@@ -36,5 +36,51 @@ everthing is a bit jus with a diffrent repersentation, whole new abstract it mig
         #also regs are like a stroage or VRAM or the procsesor
         #also called the program counter PC reading the ASM docs make a lil mo sense
         +if I get it right chip mem is erased after each power down#Vram
-        
-        went 2 mak music brb
+        +'DMA'(Direct Memory Access)::wen it goes from disk to mem 
+
+'Cache':
+    -inside chip
+    -this is the band-aid for the current mem gap
+    -'SRAM'(Static)::is when memory is embedded into hardware... bc disk is DRAM not SRAM and Regs are VRAM... fuckin harware
+    -cache comes in 3 lvls on newer machines
+    -by exploiting locality this becomes a good way to patch the distance and search thing
+m 
+    -Levels of mem(fastest to slowest):
+        +lvl 0::regs
+        +lvl 1::cache
+        +lvl 2::cache
+        +lvl 3:: cache(1-3 is SRAM)
+        +lvl 4::Main Mem(DRAM)
+        +lvl 5:: Local Secondary Storage(local Disk)
+        +lvl 6::Remote Secondary Storage(think servers and harddrives)
+
+'2 primary purpose of OS'::1.)protect hardware from misuse by runaway app#*bufferover flow*#/2.) optimize usage with an uniform mechnaics and methods for using hardware resources
+
+'Threads':
+    -execution units
+
+'Virtual Mem':
+    -abstract
+    -the uniform view of mem from the process is called 'virtual mem addr'
+    -Neighborhoods:
+        +'Pro Code and Data'(where program code and data goes)
+        +'Heap'::basically a pre-que before the stack this is where instructions thats way down the line sit
+        +'Shared Library'::sits in the middle of the mem addr it basically a translator diffrent program lingos and logic(think .dll)
+        +'Stack'::this is basically where instructions are being caluclated and executed#find func calls here
+        +'Kern Virt Mem'::this is the kern mem addr and its cannot be change by usr program instruct#think this like lvl 2/3 of the sec rings in window
+
+'concurrency'(running multiple simultaneous activities)#*how we like to think of multi threading*#
+'Parallelism'(refer to use of concurrency to make system faster)
+#*multi processor is what u like to think how multi threading works*#
+#*
+for the reader bc who like to know about hardware cmon
+multi threading is where u take 1<mathmatical limit of instructs real lines of codes that transalated into machine code for normies bits lang for fancy people. It that these seprate program
+with these requirments and take a line from each one and run each line from each program in a group think
+
+group 1(W,A,S,D)<---P.C run a line a code from these program 
+group 2(W,A,S,D)<---P.C run another line of code from these programs and so and so on````
+
+*#
+
+#8bits a bytes...also smallest addressable unit
+
