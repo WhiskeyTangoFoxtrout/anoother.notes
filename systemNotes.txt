@@ -102,3 +102,10 @@ int32_t       uint32_t             4        4
 int64_t       uint64_t
 
 *#
+
+'Big Endian'::most sig bit first
+'Little Endian'::least sig bit first
+
+#apparently cast and union are a thing is C
+#try not to make fixed data type bc it kills the portablity
+#strings in C are an array that wen met wit the termination char its filled with 'Nil/null/empty/0'
